@@ -12,7 +12,7 @@
 	:license              <http://dev.perl.org/licenses/>;
 	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-app-perlrdf> ];
 	:maintainer           cpan:TOBYINK;
-	:developer            cpan:TOBYINK.
+	:developer            cpan:TOBYINK, cpan:KJETILK.
 
 <http://dev.perl.org/licenses/>
 	dc:title  "the same terms as the perl 5 programming language system itself".
@@ -21,3 +21,8 @@ cpan:TOBYINK
 	foaf:name  "Toby Inkster";
 	foaf:mbox  <mailto:tobyink@cpan.org>.
 
+cpan:KJETILK
+    a           foaf:Person ;
+    owl:sameAs   <http://www.kjetil.kjernsmo.net/foaf#me> ;
+    foaf:name   "Kjetil Kjernsmo" ;
+    foaf:mbox   <mailto:kjetilk@cpan.org> .
